@@ -1,0 +1,11 @@
+{% extends "articles_feed/base.html" %}
+{% block content %}
+
+<p>{{article.title}}</p>
+<form action="{% url 'edit_article' article.slug %}" method="post">
+{% csrf_token %}
+{{form.as_p}}
+<button type="submit">Edit</button>
+</form>
+
+{% endblock content %}
