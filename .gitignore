@@ -1,2 +1,6 @@
 .env
+<<<<<<< HEAD
 __pycahe__
+=======
+__pycache__
+>>>>>>> b5882889cdf8f81e6d0c6ee72e885a7f07b4f567
